@@ -178,7 +178,7 @@ h1{
     .historico {
         width: 80%;
     }
-    .history-ul.li{
+    .history-ul .li{
         width: 80%;
     }
 }
