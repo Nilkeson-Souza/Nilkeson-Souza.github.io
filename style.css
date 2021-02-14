@@ -169,6 +169,9 @@ h1{
     .container{
         width: 100vw;
     }
+    .total {
+        width: 100vw;
+    }
     .total .total-int{
         width: 90vw;
     }
