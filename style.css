@@ -175,4 +175,7 @@ h1{
     .total .total-int{
         width: 100%;
     }
+    .historico {
+        width: 90%;
+    }
 }
