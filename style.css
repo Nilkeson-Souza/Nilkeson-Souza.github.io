@@ -168,6 +168,7 @@ h1{
 @media (max-width: 900px) {
     .container{
         width: 100vw;
+        margin-top: 0;
     }
     .container-results{
         width: 80%;
