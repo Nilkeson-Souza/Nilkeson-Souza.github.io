@@ -172,10 +172,7 @@ h1{
     .container-results{
         width: 100%; 
     }
-    .total {
-        width: 100%;
-    }
     .total .total-int{
-        width: 90vw;
+        width: 100%;
     }
 }
