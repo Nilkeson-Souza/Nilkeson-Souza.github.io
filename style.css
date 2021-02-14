@@ -169,6 +169,9 @@ h1{
     .container{
         width: 100vw;
     }
+    .container-results{
+        width: 100%; 
+    }
     .total {
         width: 100%;
     }
