@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sisteminha 2.0 - Controle de Porcentagem OM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="container">
+       <h1>OM Controle</h1>
+       <div class="container-results">
+           <div class="total">
+               <h2>Total</h2>
+               <div class="boder-total"></div>
+               <div class="total-int">R$ 0</div>
+           </div>
+           <div class="historico">
+               <h2>Hitórico</h2>
+               <div class="border-historico"></div>
+               <ul class="history-ul" style="overflow-y: scroll"></ul>
+           </div>
+       </div>
+       <form action="#" method="POST" class="form">
+            <label for="produto">Produto</label>
+            <input type="text"  id="produto" class="produto" placeholder="Nome do produto" autofocus>
+            <div class="label">
+                <p class="p-radio">O produto é um sofá/Box?</p><br />
+                <input type="radio" name="opcoes" value="nao" class="radio" id="nao"/><label for="nao">Não</label><br />
+                <input type="radio" name="opcoes" value="sim" class="radio" id="sim" /><label for="sim">Sim</label><br />
+            </div>
+            <label for="valor">Valor</label>
+            <input type="text" id="valor" class="valor" placeholder="Valor do produto">
+            <button class="adicionar">Adicionar</button>
+        </form>
+       </div>
+   </div>
+   <footer class="footer container">
+       <h2>&copy; Todos os direitos reservados</h2>
+       <p>Sistema desenvolvido por <strong>Nilkeson Souza</strong></p>
+   </footer>
+    <script src="main.js"></script>
+</body>
+</html>
