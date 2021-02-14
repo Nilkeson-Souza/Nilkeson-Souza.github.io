@@ -164,3 +164,9 @@ h1{
 .footer p{
     font-size: 18px;
 }
+
+@media (max-width: 900px) {
+    .container{
+        width: 100vw;
+    }
+}
